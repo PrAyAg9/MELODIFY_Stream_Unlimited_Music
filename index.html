@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Melodify - Music at Next Level</title>
+    <!-- bewakoof kam se kam link karna to sikh jaaaaaaa -->
+    <!-- <style rel="stylesheet" href="./utility.css"></style>
+    <style rel="stylesheet" href="./style.css"></style> -->
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    
+
+  </head>
+  <body>
+    <div class="container flex bg-black">
+      <div class="left">
+        <div class="home m1 bg-grey rounded p1">
+          <div class="flex">
+
+            <div class="logo flex">
+              
+              <img class="img12 rounded invert" src="./images/logo1.svg" />
+              <p class="htag">Melodify</p>
+            </div>
+            <img src="./images/close.svg" alt="close" class="close invert">
+          </div>
+          <ul>
+            <li class="flex">
+              <img class="invert rounded" src="./images/home.svg" alt="home" />
+              <p>Home</p>
+            </li>
+            <li class="flex">
+              <img
+                class="invert rounded"
+                src="./images/search.svg"
+                alt="search"
+              />
+              <p>Search</p>
+            </li>
+          </ul>
+        </div>
+        <div class="library p1 m1 bg-grey rounded">
+          <div class="heading flex">
+            <img class="invert" src="./images/library.svg" />
+            <h2>Your Library</h2>
+
+          </div>
+          <div class="songlist">
+            <ul>
+              <!-- <li>
+                <img class="invert" id="close" src="./images/musicclose.svg" alt="not playing">
+                <div class="songinfo">
+                  <div class="songname" >Song Name</div>
+                  <div>Song Artist</div>
+                </div>
+                <div class="playnow">
+                  <span>Play</span>
+                  <img class="invert resize" src="./images/play1.svg" alt="playnow">
+                </div>
+              </li> -->
+            </ul>
+          </div>
+
+          <div class="footer flex justifycontent alignitems">
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/" id="">
+                <span>Legal</span>
+              </a>
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/safetyandprivacy/" id="">
+                <span>Safety& Privacy</span>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                id=""
+              >
+                <span>Privacy</span>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                id=""
+              >
+                <span>Cookies</span>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                id=""
+              >
+                <span>About</span>
+              </a>
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/accessibility/" id="">
+                <span>Accessibility</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right bg-grey rounded">
+        <div class="header flex justifycontent rounded m2 p1">
+          <div class="nav invert">
+              <img src="./images/hamburger.svg" alt="hamburger" class="hamburger ">
+            <img id="leftimg" src="./images/leftchevron.svg" alt="left" />
+            <img id="rightimg" src="./images/rightchevron.svg" alt="right" />
+          </div>
+          <div class="buttons">
+            <button class="signup">Sign Up</button>
+            <button class="login">Log in</button>
+          </div>
+        </div>
+
+        <div class="spotifyPlaylist ">
+          <div class="cardContain">
+            <h1>90's Hits</h1>
+            <div class="cardContainer">
+              
+              
+            </div>
+            
+            <h1>Hot Playlists</h1>
+            <div class="cardContainer2">
+              
+            </div>
+            
+          </div>
+          
+            <div class="playbar">
+              <div class="seekbar">
+                <div class="circle">
+                  
+                </div>
+              </div>
+
+              <div class="abovebar">
+                
+                <div class="songinfo1">
+                  
+                </div>
+                <div class="songbuttons flex aligncenter ">
+                  <img id="prev" src="./images/set-backward-circle-svgrepo-com.svg" alt="Previous">
+                  <img id="play" src="./images/play1.svg" alt="Play">
+                  <img id="next" src="./images/set-forward-circle-svgrepo-com.svg" alt="Next">
+                </div>
+                <div class="timevol">
+
+                  <div class="songtime">
+                    
+                    
+                  </div>
+                  <div class="volume">
+                    <img id="volume-icon" width="25" src="./images/voume.svg" alt="sound">
+                    <div class="range">
+                      <input type="range" name=" voume" id="volume-range" min="0" max="100" value="60">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <!-- </div> -->
+
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

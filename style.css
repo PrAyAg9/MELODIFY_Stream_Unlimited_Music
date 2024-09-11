@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+:root{
+    --a:0;
+}
+
+body{
+    background-color: black;
+    color: white;
+
+}
+.logo{
+    margin-bottom: 16px;
+    gap: 9px;
+}
+.home{
+    /* padding: 10px; instead of doing that again and again let's get utility class of padding p1 */
+}
+
+.left{
+    width: 25vw;
+    padding: 2px;
+    /* margin: 10px; */
+}
+.right{
+    width: 75vw;
+    margin: 7px;
+    /* IDHAR YE SCROLL BAR UTNA ACHA NAHI LAG RAHA HAI. */
+    /* max-height: 100vh;
+    overflow: scroll; */
+    position: relative;
+}
+
+.home ul li{
+    width: 25px;
+    list-style: none;
+    margin-bottom: 13px;
+    gap: 6px;
+    font-weight: bold;
+}
+
+.library{
+    min-height: 71vh;
+    position: relative;
+    /* overflow: scroll; */
+}
+
+.heading{
+    gap: 11px;
+    width: 100%;
+    font-size: 17px;
+    align-items: center;
+
+}
+
+.heading img{
+    width: 19px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+    justify-content: space-between;
+    gap: 7px;
+    
+}
+
+.header{
+    background-color: #3e3d3d;
+}
+
+.header img{
+    margin-top: 9px;
+    width: 20px;
+}
+
+.nav{
+    gap: 15px;
+}
+
+.cardContain{
+    /* ISSE KARNE SE NICHE WALA SCROLL BAR NAHI AAYEGA.  --------- GPT se pucho scroll bar for dark website */
+    overflow-y: scroll ;
+    max-height: 70vh;
+
+}
+
+.cardContainer{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.cardContainer2{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.img12{
+    height: 32px;
+    width: 32px;
+}
+
+.htag{
+    font-size: 20px;
+    font-weight: 767;
+}
+
+
+.spotifyPlaylist h1{
+    margin-top: 12px;
+    margin-left: 9px;
+}
+.card{
+    width: 130px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+    margin-left: 12px;
+    margin-top: 10px;
+    position: relative;
+
+}
+
+.card1{
+    width: 130px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+    margin-left: 12px;
+    margin-top: 10px;
+    position: relative;
+
+}
+
+.card:hover{
+    background-color: rgb(27, 27, 27);
+    cursor: pointer;
+    transition: all 0.1s;
+    --a: 1;
+}
+
+.card1:hover{
+    background-color: rgb(27, 27, 27);
+    cursor: pointer;
+    transition: all 0.1s;
+    --a: 1;
+}
+
+
+
+
+/* THIS SYNTAX FOR ALL IMMEDIATE ELEMENTS OF THAT CLASS */
+.card > *{
+    padding-top: 7px;
+}
+
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.card1 > *{
+    padding-top: 7px;
+}
+
+.card1 img{
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.play{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 125px;
+    right: 25px;
+    opacity: var(--a);
+    /* way to get it for loading whole img */
+}
+
+
+.buttons{
+    gap: 18px;
+}
+
+.hamburger{
+    display: none;
+}
+
+.signup{
+    color: grey;
+    background-color: black;
+    font-size: 14px;
+    border-radius: 18px;
+    padding: 10px;
+    width: 78px;
+    /* padding: 8px 12px 8px 12px; */
+    /* fir bhi likhna hai to aisa likho */
+    /* padding: 8px 12px; */
+    margin-bottom: 5px;
+    /* padding-left: 6px;
+    padding-right: 6px; */
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.signup:hover{
+    color: snow;
+    width: 82px;
+}
+
+.login{
+    color:black;
+    background-color: white;
+    font-size: 14px;
+    border-radius: 18px;
+    padding: 10px;
+    /* padding: 8px 16px 8px 16px; */
+    /* PADDING AISA KARNE SE ACHA WIDTH INCREASE KAR LOOO. */
+    width: 72px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login:hover{
+    color: gray;
+    font-size: 13px;
+    width: 72px;
+}
+
+.playbar{
+    position: fixed;
+    bottom: 28px;
+    background-color: #c2c2c2;
+    width: 72vw;
+    /* width: calc(100vw - 190px); */
+    padding: 12px;
+    filter: invert(1);
+    border-radius: 24px;
+    height: 50px;
+    z-index: 100;
+}
+
+.songbuttons img {
+    width:28px;
+    height: 28px;
+    fill: #000000;
+}
+
+.songbuttons{
+    gap: 16px;
+}
+
+/* .songlist{
+    border: 2px solid black;
+} */
+ /* WRONG -- YAHA NAHI LAGEGA PURA LIST KO BOX HOGAYA HAR ELEMENT KA APNA EK BOX HONA CHAIYE */
+
+ .songinfo{
+    width: 84px;
+    object-fit: contain;
+ }
+
+.songlist ul{
+    padding: 12px;
+}
+
+.songlist ul li{
+    list-style: decimal;
+    display: flex;
+    gap: 34px;
+    cursor: pointer;
+    border: 2px solid grey;
+    margin: 6px 3px;
+    border-radius: 5px;
+    padding: 6px;
+    width: 96% ;
+    justify-content: space-around;
+}
+
+/* .songlist img{
+    margin-left: 2px;
+} */
+#close{
+    margin-left: 6px;
+}
+
+.playnow{
+    display: flex;
+    width: 95px;
+    gap: 28px;
+    margin-left: 16px;
+}
+
+.songname{
+    width: 124px;
+}
+
+/* .songlist .songinfo{
+    width: 344px;
+} */
+.playnow span{
+    margin-top: 6.5px;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.songlist{
+    height: 400px;
+    overflow: auto;
+}
+
+.close{
+    display: none;
+}
+
+
+.seekbar{
+    height: 3px;
+    width: 98%;
+    /* width: calc(100vw-130px); */
+    border-radius: 900px;
+    border: 2px solid #6a6a6a;
+    position: absolute;
+    bottom: 8px;
+
+}
+
+.circle{
+    width: 12px;
+    height: 10px;
+    border: 2px solid white;
+    background-color: #b0b0b0;
+    border-radius: 18px;
+    position: absolute;
+    bottom: -4px;
+    left: -0.3%;
+}
+
+.songbuttons img{
+    cursor: pointer;
+}
+
+.abovebar{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.songinfo1, .songtime{
+    color: black;
+    padding-top: 3px;
+    width: 125px;
+}
+
+.songinfo1{
+    width: 245px;
+}
+
+.timevol{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.volume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.range input{
+    cursor: pointer;
+}
+
+
+
+/* .songinfo{
+    background-color: #000000;
+} */
+
+@media (max-width: 1400px) {
+    .left{
+        background-color: black;
+        position: absolute;
+        left: -100%;
+        transition: all .3s;
+        z-index: 1;
+        width: 433px;
+    }
+
+    .right{
+        width: 100vw;
+        
+    }
+
+    .playbar{
+        position: fixed;
+        width: 95vw;
+        bottom: 50px;
+    }
+
+    .hamburger{
+        display: block;
+        /* height: 49x; */
+   }
+
+    #leftimg{
+        display: none;
+    }
+
+    #rightimg{
+        display: none;
+    }
+
+    .close{
+        display: block;
+        position: absolute;
+        left: 382px;
+        top: 28px;
+    }
+}
+
+@media (max-width: 570px) {
+    .playbar{
+        width: 92vw;
+    }
+
+    .left{
+        left: -150%;
+    }
+
+    .abovebar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        height: 50px;
+        background-color: #c2c2c2;
+    }
+
+    .left{
+        width: auto;
+        object-fit: contain;
+    }
+
+    .songlist ul li {
+        gap: 0px;
+    
+    }
+
+    .volume{
+        display: none;
+    }
+
+
+    .songlist ul{
+        width: 295px;
+    }
+
+    .songinfo, .songtime{
+        width: auto;
+         
+    }
+
+    #close{
+        margin-left: -10px;
+    }
+
+    .playbar{
+        bottom: 9px;
+        background-color: #c2c2c2;
+        padding-bottom: 57px;
+        padding-left: 5px;
+        padding-right: 0px;
+        margin-left: 2px;
+        z-index: 100;
+        
+    }
+
+    .close{
+        left: 320px;
+        top: 20px;
+    }
+
+    .cardContainer{
+       margin: 0;
+       justify-content: center;
+       width: 90vw;
+    }
+
+}
+
