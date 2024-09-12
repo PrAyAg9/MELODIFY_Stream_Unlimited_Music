@@ -7,7 +7,7 @@
     <!-- bewakoof kam se kam link karna to sikh jaaaaaaa -->
     <!-- <style rel="stylesheet" href="./utility.css"></style>
     <style rel="stylesheet" href="./style.css"></style> -->
-
+    <script src="https://cdn.auth0.com/js/auth0-spa-js/1.16/auth0-spa-js.production.js"></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="utility.css" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -23,14 +23,15 @@
             <div class="logo flex">
               
               <img class="img12 rounded invert" src="./images/logo1.svg" />
-              <p class="htag">Melodify</p>
+              <a class="homie htag" href="./index.html">Melodify</a>
+              
             </div>
             <img src="./images/close.svg" alt="close" class="close invert">
           </div>
           <ul>
             <li class="flex">
               <img class="invert rounded" src="./images/home.svg" alt="home" />
-              <p>Home</p>
+              <a class="homie" href="./index.html">Home</a>
             </li>
             <li class="flex">
               <img
@@ -38,7 +39,7 @@
                 src="./images/search.svg"
                 alt="search"
               />
-              <p>Search</p>
+              <a class="homie" href="./index.html">Search</a>
             </li>
           </ul>
         </div>
@@ -66,18 +67,18 @@
 
           <div class="footer flex justifycontent alignitems">
             <div>
-              <a href="https://www.spotify.com/in-en/legal/" id="">
+              <a href="./prayag.html" id="">
                 <span>Legal</span>
               </a>
             </div>
             <div>
-              <a href="https://www.spotify.com/in-en/safetyandprivacy/" id="">
+              <a href="./prayag.html" id="">
                 <span>Safety& Privacy</span>
               </a>
             </div>
             <div>
               <a
-                href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                href="./prayag.html"
                 id=""
               >
                 <span>Privacy</span>
@@ -85,7 +86,7 @@
             </div>
             <div>
               <a
-                href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                href="./prayag.html"
                 id=""
               >
                 <span>Cookies</span>
@@ -93,14 +94,14 @@
             </div>
             <div>
               <a
-                href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                href="./prayag.html"
                 id=""
               >
                 <span>About</span>
               </a>
             </div>
             <div>
-              <a href="https://www.spotify.com/in-en/accessibility/" id="">
+              <a href="./prayag.html" id="">
                 <span>Accessibility</span>
               </a>
             </div>
@@ -114,9 +115,9 @@
             <img id="leftimg" src="./images/leftchevron.svg" alt="left" />
             <img id="rightimg" src="./images/rightchevron.svg" alt="right" />
           </div>
-          <div class="buttons">
-            <button class="signup">Sign Up</button>
-            <button class="login">Log in</button>
+          <div class="buttons" id="btns1">
+            <button class="signup" id="login-button">Sign Up</button>
+            <button class="login"id="login-button">Log in</button>
           </div>
         </div>
 
@@ -173,6 +174,7 @@
       </div>
     </div>
 
-    <script src="./script.js"></script>
+    <script src="./backup.js"></script>
+    <script src="./login.js"></script>
   </body>
 </html>
