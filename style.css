@@ -116,6 +116,7 @@ body{
 .htag{
     font-size: 20px;
     font-weight: 767;
+    text-decoration: none;
 }
 
 
@@ -192,8 +193,12 @@ body{
     /* way to get it for loading whole img */
 }
 
+#btns1{
+    display: flex;
+}
 
 .buttons{
+    display: flex;
     gap: 18px;
 }
 
@@ -221,6 +226,10 @@ body{
 .signup:hover{
     color: snow;
     width: 82px;
+}
+
+.homie{
+    text-decoration: none;
 }
 
 .login{
