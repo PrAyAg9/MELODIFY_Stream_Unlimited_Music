@@ -1,6 +1,6 @@
 # 🎶 **Melodify – Music at Next Level** 🎧
 
-[![Website](https://www.google.com/url?sa=i&url=https%3A%2F%2Fin.pinterest.com%2Fpin%2Fmusic-logo-photos-royaltyfree-images-graphics-vectors-videos--707980003907982966%2F&psig=AOvVaw1b8pjsA2d2PA-Kv-73O85d&ust=1726217337989000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMjDte-CvYgDFQAAAAAdAAAAABAE)](https://melodify-stream-unlimited-music-leo8u9sgb-prayag9s-projects.vercel.app)  
+[![Website](https://img.freepik.com/premium-vector/vinyl-record-sound-graph-black-background-music-illustration-icon-vector_484720-2957.jpg)](https://melodify-stream-unlimited-music-leo8u9sgb-prayag9s-projects.vercel.app)  
 **Visit the website**: [Melodify](https://prayag9.github.io/MELODIFY_Stream_Unlimited_Music/) , [Through Vercel ](https://melodify-stream-unlimited-music-leo8u9sgb-prayag9s-projects.vercel.app)
 
 ---
