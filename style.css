@@ -515,5 +515,11 @@ body{
        width: 90vw;
     }
 
+    .cardContainer2{
+        margin: 0;
+        justify-content: center;
+        width: 90vw;
+     }    
+
 }
 
