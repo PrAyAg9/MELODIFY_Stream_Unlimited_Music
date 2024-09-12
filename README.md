@@ -1,6 +1,6 @@
 # 🎶 **Melodify – Music at Next Level** 🎧
 
-[![Website](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGd5OeqCXUxTOTEiZ5K2aTzrjALE6TGbSmgw&s)](https://melodify-stream-unlimited-music-leo8u9sgb-prayag9s-projects.vercel.app)  
+[![Website](https://www.clipartmax.com/png/middle/86-864452_20000-svg-free-clipart-public-domain-vectors-rh-publicdomainvectors-horse-vector.png)](https://melodify-stream-unlimited-music-leo8u9sgb-prayag9s-projects.vercel.app)  
 **Visit the website**: [Melodify](https://prayag9.github.io/MELODIFY_Stream_Unlimited_Music/) , [Through Vercel ](https://melodify-stream-unlimited-music-leo8u9sgb-prayag9s-projects.vercel.app)
 
 ---
