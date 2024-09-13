@@ -36,14 +36,14 @@ cd melodify
 live-server
 ```
 ---
-🛠️ Technologies Used
+🛠️ **Technologies Used**
 
-.HTML5
-.CSS3 (including utility-first design with custom animations)
-.JavaScript (with ES6+ features)
-.jQuery (for simplified DOM manipulation)
-.MP3 for audio
-Compressed images for faster load times
+- HTML5
+- CSS3 (including utility-first design with custom animations)
+- JavaScript (with ES6+ features)
+- jQuery (for simplified DOM manipulation)
+- MP3 for audio
+- Compressed images for faster load times
 ---
 
 📂 Project Structure
@@ -68,11 +68,14 @@ We welcome contributions from the community! Whether it's fixing bugs, improving
 4) Submit a pull request
 
 ---
+🌐 Connect with Us.
 
-🌐 Connect with Us
-Website: Melodify
-Twitter: @Coming Soon
-Instagram: @Coming Soon
+1) Website: Melodify
+2) Twitter: @Coming Soon
+3) Instagram: @Coming Soon
+
+---
+
 ```markdown
 ### Explanation of Sections:
 - **Website Link**: Right at the start, users can visit the website easily.
