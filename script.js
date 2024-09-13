@@ -10,7 +10,7 @@ function convertSecondsToTime1(seconds) {
     throw new Error("Input must be a non-negative number");
   }
   
-  // Calculate minutes and remaining seconds
+  //Calculate minutes and remaining seconds
   const minutes = Math.floor(seconds / 60);
   const remainingSeconds = Math.floor(seconds % 60);
   
