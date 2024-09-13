@@ -42,7 +42,7 @@ live-server
 .CSS3 (including utility-first design with custom animations)
 .JavaScript (with ES6+ features)
 .jQuery (for simplified DOM manipulation)
-MP3 for audio
+.MP3 for audio
 Compressed images for faster load times
 ---
 
