@@ -25,6 +25,7 @@ function convertSecondsToTime1(seconds) {
 
 function convertSecondsToTime(seconds) {
   // Calculate hours, minutes, and seconds
+
   const hours = Math.floor(seconds / 3600);
   const minutes = Math.floor((seconds % 3600) / 60);
   const remainingSeconds = seconds % 60;
@@ -44,7 +45,7 @@ function convertSecondsToTime(seconds) {
 }
 
 
-// Hardcoded list of songs and albums (replace with your actual file names)
+// Hardcoded list of songs and albums (replace with actual file names)
 const albums = [
     {
       folder: 'kishore',
