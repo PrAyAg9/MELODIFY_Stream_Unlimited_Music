@@ -3,9 +3,7 @@ let auth0 = null;
 const initAuth0 = async () => {
     // Initialize the Auth0 client with your Auth0 credentials
     auth0 = await createAuth0Client({
-        domain: 'dev-1c3appy38zq7kswu.us.auth0.com',  // Replace with your Auth0 domain
-        client_id: 'G2noAoyIvGqBB8U2JMD6361CRFSRRvCS',  // Replace with your Auth0 Client ID
-        redirect_uri: `http://127.0.0.1:5500/login.html/`
+
     });
 };
 
